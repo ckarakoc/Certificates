@@ -5,6 +5,8 @@
 | --- | --- |
 | [Udemy: Build an app with ASPNET Core and Angular from scratch](https://github.com/ckarakoc/DatingApp) | [<img src="UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg) |
 | [Udemy: The Ultimate Beginner's Guide to Django 1.11](https://github.com/ckarakoc/404) | [<img src="UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg) |
+| [Udemy: Tailwind CSS From Scratch](https://ckarakoc.github.io/TailwindFromScratch/) | [<img src="UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg) |
+
 
 
 # Tutorials
