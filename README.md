@@ -1,13 +1,13 @@
 # Repositories
 ## Tutorials made, with a certificate of completion
 
-| Repositories | Certificate |
-| --- | --- |
-| Udemy: Build an app with ASPNET Core and Angular from scratch <sup>[1](https://github.com/ckarakoc/DatingApp)</sup> | [<img src="UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg) |
-| Udemy: The Ultimate Beginner's Guide to Django 1.11 | [<img src="UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg) |
-| Udemy: Tailwind CSS From Scratch <sup>[1](https://ckarakoc.github.io/TailwindFromScratch/)</sup> | [<img src="UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg) |
+| Repositories                                                                                                                                                                       | Certificate |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| Udemy: Build an app with ASPNET Core and Angular from scratch <sup>[1](https://github.com/ckarakoc/DatingApp)</sup>                                                                | [<img src="UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg) |
+| Udemy: The Ultimate Beginner's Guide to Django 1.11                                                                                                                                | [<img src="UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg) |
+| Udemy: Tailwind CSS From Scratch <sup>[1](https://ckarakoc.github.io/TailwindFromScratch/)</sup>                                                                                   | [<img src="UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg) |
 | Udemy: The Windows Presentation Foundation WPF Guide for beginners <sup>[1](https://github.com/ckarakoc/WpfApp)</sup> <sup>[2](https://github.com/ckarakoc/WindowsStoreClone)</sup> | [<img src="UC-d5806ab0-d73d-49f2-981b-ae57d30a2245.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-d5806ab0-d73d-49f2-981b-ae57d30a2245.jpg) |
-
+| Udemy: Microsoft Azure for .NET Developers <sup>[1](https://github.com/ckarakoc/Cloud)</sup>              | [<img src="UC-3a2e6dab-8a98-4f95-b575-8cd8e7819d8c.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-3a2e6dab-8a98-4f95-b575-8cd8e7819d8c.jpg) |
 
 
 # Tutorials
