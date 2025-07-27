@@ -9,6 +9,7 @@
 | Udemy: The Windows Presentation Foundation WPF Guide for beginners <sup>[1](https://github.com/ckarakoc/WpfApp)</sup> <sup>[2](https://github.com/ckarakoc/WindowsStoreClone)</sup> | [<img src="UC-d5806ab0-d73d-49f2-981b-ae57d30a2245.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-d5806ab0-d73d-49f2-981b-ae57d30a2245.jpg) |
 | Udemy: Microsoft Azure for .NET Developers <sup>[1](https://github.com/ckarakoc/Cloud)</sup>              | [<img src="UC-3a2e6dab-8a98-4f95-b575-8cd8e7819d8c.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-3a2e6dab-8a98-4f95-b575-8cd8e7819d8c.jpg) |
 | Udemy: Bootstrap 5 From Scratch <sup>[1](https://ckarakoc.github.io/BootstrapFromScratch/)</sup>                                                                                   | [<img src="UC-9a106a5d-0009-4bac-af7b-fe48d192473e.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-9a106a5d-0009-4bac-af7b-fe48d192473e.jpg) |
+| Udemy: Angular Testing Masterclass (Angular 20) <sup>[1](https://github.com/ckarakoc/angular-testing)</sup>                                                                                   | [<img src="UC-65bf42a8-e998-4cf1-8dd8-56b72e188d03.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-65bf42a8-e998-4cf1-8dd8-56b72e188d03.jpg) |
 
 # Tutorials
 ## Tutorials made, without a certificate
