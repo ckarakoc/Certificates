@@ -26,3 +26,4 @@
 | [Udemy - React Goal Tracker](https://ckarakoc.github.io/DemoProjectS7/) | [Repo](https://github.com/ckarakoc/DemoProjectS7) |
 | [Udemy - React Expense Tracker](https://ckarakoc.github.io/ExpenseTracker/) | [Repo](https://github.com/ckarakoc/ExpenseTracker) |
 | [Udemy - React Concept Page](https://ckarakoc.github.io/ExampleStartingReactSite/) | [Repo](https://github.com/ckarakoc/ExampleStartingReactSite) |
+| [Java - Production-Ready Patient Management System with Microservices](https://www.youtube.com/watch?v=tseqdcFfTUY&t=42687s) | [Repo](https://github.com/ckarakoc/patient-management) |
