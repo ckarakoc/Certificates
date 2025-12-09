@@ -14,14 +14,16 @@
 | Udemy: Docker & Kubernetes: The Practical Guide \[2025 Edition\]                                                                           | [<img src="UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg) |
 
 ## Cloud
+
 | Repositories                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| Azure: AZ-900                                                                | NEXT UP |
+| Azure: AZ-900                                                                                                                                                                      | NEXT UP |
 
 ## Java 
+
 | Repositories                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| Baeldung:                                                                 | NEXT UP |
+| Baeldung                                                                                                                                                                           | NEXT UP |
 
 ## Tutorials made, without a certificate
 
