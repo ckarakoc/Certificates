@@ -1,5 +1,5 @@
-# Repositories
-## Tutorials made, with a certificate of completion
+# Certificates of Completion
+## Udemy 
 
 | Repositories                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
@@ -13,15 +13,21 @@
 | Udemy: Angular Deep Dive - Beginner to Advanced (Angular 20)                                                                               | [<img src="UC-d0badc75-209e-47b1-8e49-3ca92c9942e7.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-d0badc75-209e-47b1-8e49-3ca92c9942e7.jpg) |
 | Udemy: Docker & Kubernetes: The Practical Guide \[2025 Edition\]                                                                           | [<img src="UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg) |
 
+## Cloud
+| Repositories                                                                                                                                                                       | Certificate |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| Azure: AZ-900                                                                | NEXT UP |
 
+## Java 
+| Repositories                                                                                                                                                                       | Certificate |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| Baeldung:                                                                 | NEXT UP |
 
-
-
-# Tutorials
 ## Tutorials made, without a certificate
 
 | Projects | Repositories |
 | --- | --- |
+| [Java - Production-Ready Patient Management System with Microservices](https://www.youtube.com/watch?v=tseqdcFfTUY&t=42687s) | [Repo](https://github.com/ckarakoc/patient-management) |
 | [Youtube - Angular chat ui](https://ckarakoc.github.io/ng-chat-ui-setup/) | [Repo](https://github.com/ckarakoc/ng-chat-ui-setup) |
 | [Angular - Housing Website Tutorial](https://ckarakoc.github.io/Angular/) |[Repo](https://github.com/ckarakoc/Angular) |
 | [Angular - Hero Website Tutorial](https://ckarakoc.github.io/AngularHero/heroes) | [Repo](https://github.com/ckarakoc/AngularHero) |
@@ -30,4 +36,3 @@
 | [Udemy - React Goal Tracker](https://ckarakoc.github.io/DemoProjectS7/) | [Repo](https://github.com/ckarakoc/DemoProjectS7) |
 | [Udemy - React Expense Tracker](https://ckarakoc.github.io/ExpenseTracker/) | [Repo](https://github.com/ckarakoc/ExpenseTracker) |
 | [Udemy - React Concept Page](https://ckarakoc.github.io/ExampleStartingReactSite/) | [Repo](https://github.com/ckarakoc/ExampleStartingReactSite) |
-| [Java - Production-Ready Patient Management System with Microservices](https://www.youtube.com/watch?v=tseqdcFfTUY&t=42687s) | [Repo](https://github.com/ckarakoc/patient-management) |
