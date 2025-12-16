@@ -30,6 +30,7 @@
 
 | Projects | Repositories |
 | --- | --- |
+| [Java - Spring Boot 3 Microservices portfolio project with Java](https://www.youtube.com/watch?v=-pv5pMBlMxs) | [Repo](https://github.com/ckarakoc/leetjourney-microservices) |
 | [Java - Production-Ready Patient Management System with Microservices](https://www.youtube.com/watch?v=tseqdcFfTUY&t=42687s) | [Repo](https://github.com/ckarakoc/patient-management) |
 | [Youtube - Angular chat ui](https://ckarakoc.github.io/ng-chat-ui-setup/) | [Repo](https://github.com/ckarakoc/ng-chat-ui-setup) |
 | [Angular - Housing Website Tutorial](https://ckarakoc.github.io/Angular/) |[Repo](https://github.com/ckarakoc/Angular) |
