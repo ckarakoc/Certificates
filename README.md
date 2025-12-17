@@ -13,6 +13,8 @@
 | Udemy: Angular Deep Dive - Beginner to Advanced (Angular 20)                                                                               | [<img src="UC-d0badc75-209e-47b1-8e49-3ca92c9942e7.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-d0badc75-209e-47b1-8e49-3ca92c9942e7.jpg) |
 | Udemy: Docker & Kubernetes: The Practical Guide \[2025 Edition\]                                                                           | [<img src="UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg) |
 | Udemy: The Ultimate DevOps Bootcamp                                                                            | [<img src="UC-26e7b02f-7be4-4de1-bcf0-9b5062f78008.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-26e7b02f-7be4-4de1-bcf0-9b5062f78008.jpg) |
+| Udemy: Master Microsoft Azure Fundamentals: AZ-900 Exam Prep 2025                                                                            | [<img src="UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg) |
+
 
 ## Cloud
 
