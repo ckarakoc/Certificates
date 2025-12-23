@@ -28,6 +28,13 @@
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | Baeldung                                                                                                                                                                           | NEXT UP |
 
+## Angular 
+
+| Repositories                                                                                                                                                                       | Certificate |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| Certified Junior Angular Developer                                                                                                                                                 | [<img src="angular_junior_certificate.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/angular_junior_certificate.jpg)  |
+
+
 ## Tutorials made, without a certificate
 
 | Projects | Repositories |
