@@ -1,7 +1,7 @@
 # Certificates of Completion
 ## Udemy 
 
-| Repositories                                                                                                                                                                       | Certificate |
+| Repository                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | Udemy: Build an app with ASPNET Core and Angular from scratch <sup>[1](https://github.com/ckarakoc/DatingApp)</sup>                                                                | [<img src="UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg) |
 | Udemy: The Ultimate Beginner's Guide to Django 1.11                                                                                                                                | [<img src="UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg) |
@@ -16,27 +16,40 @@
 | Udemy: Master Microsoft Azure Fundamentals: AZ-900 Exam Prep 2025                                                                            | [<img src="UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg) |
 | Udemy: Ultimate AWS Certified Cloud Practitioner CLF-C02 2026                                                                            | [<img src="UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg) |
 
+<br>
+
+---
+
+<br>
+
+# Certificates
+
 ## Cloud
 
-| Repositories                                                                                                                                                                       | Certificate |
+| Certification                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | Azure: AZ-900                                                                                                                                                                      | NEXT UP |
 | [AWS Certified Cloud Practitioner](https://www.credly.com/badges/5e2b0a89-600c-4699-8614-873c9d78ad75/linked_in_profile)                                                                                                                                                 | [<img src="aws-certified-cloud-practitioner.png" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/aws-certified-cloud-practitioner.png)  |
 
+## Angular 
+
+| Certification                                                                                                                                                                       | Certificate |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
+| [Certified Junior Angular Developer](https://api.certificates.dev/certificates/a0a90970-3e8e-4803-b3bd-1c711e8cb080/download?signature=715476660484ba508e4a793fcd9215ab272df873f95a18e63b6446e234e55e1d)                                                                                                                                                 | [<img src="angular_junior_certificate.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/angular_junior_certificate.jpg)  |
 ## Other 
 
-| Repositories                                                                                                                                                                       | Certificate |
+| Certification                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | GH-900                                                                                                                                                                           | NEXT UP |
 
-## Angular 
+<br>
 
-| Repositories                                                                                                                                                                       | Certificate |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| [Certified Junior Angular Developer](https://api.certificates.dev/certificates/a0a90970-3e8e-4803-b3bd-1c711e8cb080/download?signature=715476660484ba508e4a793fcd9215ab272df873f95a18e63b6446e234e55e1d)                                                                                                                                                 | [<img src="angular_junior_certificate.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/angular_junior_certificate.jpg)  |
+---
 
+<br>
 
-## Tutorials made, without a certificate
+# Tutorials made, without a certificate
+
 
 | Projects | Repositories |
 | --- | --- |
