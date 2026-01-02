@@ -23,11 +23,11 @@
 | Azure: AZ-900                                                                                                                                                                      | NEXT UP |
 | [AWS Certified Cloud Practitioner](https://www.credly.com/badges/5e2b0a89-600c-4699-8614-873c9d78ad75/linked_in_profile)                                                                                                                                                 | [<img src="aws-certified-cloud-practitioner.png" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/aws-certified-cloud-practitioner.png)  |
 
-## Java 
+## Other 
 
 | Repositories                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| Baeldung                                                                                                                                                                           | NEXT UP |
+| GH-900                                                                                                                                                                           | NEXT UP |
 
 ## Angular 
 
