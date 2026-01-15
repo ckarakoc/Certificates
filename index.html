@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0ea5e9;
+            --border: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 4rem 1rem;
+            background: linear-gradient(to bottom, #1e293b 0%, #0f172a 100%);
+            border-bottom: 1px solid var(--border);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Filter Controls */
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 2rem 1rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 0.5rem 1.5rem;
+            border-radius: 2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--accent);
+            color: #fff;
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /* Grid Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem 4rem 1rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        /* Card Styles */
+        .card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            opacity: 0;
+            animation: fadeIn 0.5s forwards;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+            border-color: var(--accent);
+        }
+
+        .card-img-container {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+            background: #000;
+            cursor: pointer;
+        }
+
+        .card-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* or contain, depending on preference */
+            object-position: center;
+            transition: transform 0.5s ease;
+        }
+        
+        /* Specific fix for SVG/PNG transparent images to look better */
+        .card-img[src$=".svg"], .card-img[src$=".png"] {
+             object-fit: contain;
+             padding: 1rem;
+        }
+
+        .card:hover .card-img {
+            transform: scale(1.05);
+        }
+
+        .card-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover .card-overlay {
+            opacity: 1;
+        }
+
+        .card-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: var(--border);
+            font-size: 4rem;
+            transition: color 0.3s ease;
+        }
+
+        .card:hover .card-placeholder {
+            color: var(--accent);
+        }
+
+        .view-btn {
+            color: white;
+            font-size: 3rem;
+            pointer-events: none;
+        }
+
+        .card-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-tag {
+            display: inline-block;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent);
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-primary);
+        }
+
+        .card-actions {
+            margin-top: auto;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .action-link {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            transition: color 0.2s;
+            background: rgba(255,255,255,0.05);
+        }
+
+        .action-link:hover {
+            color: var(--accent);
+            background: rgba(255,255,255,0.1);
+        }
+
+        /* Tutorials List Style (Alternative view) */
+        .tutorial-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: border-color 0.3s;
+        }
+        
+        .tutorial-item:hover {
+            border-color: var(--accent);
+        }
+
+        .tutorial-title {
+            font-weight: 600;
+            color: var(--text-primary);
+            text-decoration: none;
+        }
+        .tutorial-title:hover {
+            color: var(--accent);
+        }
+
+        /* Modal */
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.9);
+            z-index: 1000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal.active {
+            display: flex;
+            opacity: 1;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 2rem;
+            right: 2rem;
+            color: white;
+            font-size: 2rem;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Achievements & Certificates</h1>
+        <p class="subtitle">A showcase of my continuous learning journey in Software Engineering, Cloud Computing, and DevOps.</p>
+    </header>
+
+    <div class="controls">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="official">Official Certs</button>
+        <button class="filter-btn" data-filter="udemy">Udemy</button>
+        <button class="filter-btn" data-filter="tutorial">Tutorials</button>
+    </div>
+
+    <div class="container">
+        <div class="grid" id="gallery">
+            <!-- Content will be injected here by JS -->
+        </div>
+    </div>
+
+    <div class="modal" id="imageModal">
+        <button class="modal-close">&times;</button>
+        <img class="modal-content" src="" alt="Certificate Preview">
+    </div>
+
+    <script>
+        // =========================================================================
+        // DATA CONFIGURATION
+        // Add new certificates here. 
+        // Types: 'udemy', 'official', 'tutorial'
+        // =========================================================================
+        const certificates = [
+            // --- Official Certifications ---
+            {
+                title: "Azure Fundamentals (AZ-900)",
+                image: "microsoft-certified-azure-fundamentals.svg",
+                type: "official",
+                tag: "Cloud",
+                links: [
+                    { label: "Verify", url: "https://learn.microsoft.com/api/credentials/share/en-gb/ckarakoc/95535C86411AFBB1?sharingId=F461AAA7A48E7CA6", icon: "fa-certificate" }
+                ]
+            },
+            {
+                title: "AWS Certified Cloud Practitioner",
+                image: "aws-certified-cloud-practitioner.png",
+                type: "official",
+                tag: "Cloud",
+                links: [
+                    { label: "Verify", url: "https://www.credly.com/badges/5e2b0a89-600c-4699-8614-873c9d78ad75/linked_in_profile", icon: "fa-certificate" }
+                ]
+            },
+            {
+                title: "Certified Junior Angular Developer",
+                image: "angular_junior_certificate.jpg",
+                type: "official",
+                tag: "Web",
+                links: [
+                    { label: "Verify", url: "https://api.certificates.dev/certificates/a0a90970-3e8e-4803-b3bd-1c711e8cb080/download?signature=715476660484ba508e4a793fcd9215ab272df873f95a18e63b6446e234e55e1d", icon: "fa-certificate" }
+                ]
+            },
+            {
+                title: "GitHub Foundations (GH-900)",
+                image: "github-foundations.svg",
+                type: "official",
+                tag: "DevOps",
+                links: [
+                    { label: "Verify", url: "https://learn.microsoft.com/api/credentials/share/en-gb/ckarakoc/E8E777C1E1EAF9C1?sharingId=F461AAA7A48E7CA6", icon: "fa-certificate" }
+                ]
+            },
+
+            // --- Udemy Courses ---
+            {
+                title: "Build an app with ASPNET Core and Angular from scratch",
+                image: "UC-44c751e8-dada-4d47-9f72-60a8d8ee8055.jpg",
+                type: "udemy",
+                tag: "Fullstack",
+                links: [
+                    { label: "Code", url: "https://github.com/ckarakoc/DatingApp", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "The Ultimate Beginner's Guide to Django 1.11",
+                image: "UC-c57f2e42-efca-4b61-ac39-6689faf96b85.jpg",
+                type: "udemy",
+                tag: "Python",
+                links: []
+            },
+            {
+                title: "Tailwind CSS From Scratch",
+                image: "UC-cc60bd50-9594-4f32-bd9a-55bcf202ff8d.jpg",
+                type: "udemy",
+                tag: "CSS",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/TailwindFromScratch/", icon: "fa-desktop" }
+                ]
+            },
+            {
+                title: "WPF Guide for beginners",
+                image: "UC-d5806ab0-d73d-49f2-981b-ae57d30a2245.jpg",
+                type: "udemy",
+                tag: "Desktop",
+                links: [
+                    { label: "Repo 1", url: "https://github.com/ckarakoc/WpfApp", icon: "fa-github" },
+                    { label: "Repo 2", url: "https://github.com/ckarakoc/WindowsStoreClone", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Microsoft Azure for .NET Developers",
+                image: "UC-3a2e6dab-8a98-4f95-b575-8cd8e7819d8c.jpg",
+                type: "udemy",
+                tag: "Cloud",
+                links: [
+                    { label: "Code", url: "https://github.com/ckarakoc/Cloud", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Bootstrap 5 From Scratch",
+                image: "UC-9a106a5d-0009-4bac-af7b-fe48d192473e.jpg",
+                type: "udemy",
+                tag: "CSS",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/BootstrapFromScratch/", icon: "fa-desktop" }
+                ]
+            },
+            {
+                title: "Angular Testing Masterclass",
+                image: "UC-65bf42a8-e998-4cf1-8dd8-56b72e188d03.jpg",
+                type: "udemy",
+                tag: "Testing",
+                links: [
+                    { label: "Code", url: "https://github.com/ckarakoc/angular-testing", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Angular Deep Dive - Beginner to Advanced",
+                image: "UC-d0badc75-209e-47b1-8e49-3ca92c9942e7.jpg",
+                type: "udemy",
+                tag: "Angular",
+                links: []
+            },
+            {
+                title: "Docker & Kubernetes: The Practical Guide",
+                image: "UC-f9cc6d37-fca9-4c6c-b99e-511583b682b9.jpg",
+                type: "udemy",
+                tag: "DevOps",
+                links: []
+            },
+            {
+                title: "The Ultimate DevOps Bootcamp",
+                image: "UC-26e7b02f-7be4-4de1-bcf0-9b5062f78008.jpg",
+                type: "udemy",
+                tag: "DevOps",
+                links: []
+            },
+            {
+                title: "Master Microsoft Azure Fundamentals: AZ-900 Prep",
+                image: "UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg",
+                type: "udemy",
+                tag: "Cloud",
+                links: []
+            },
+            {
+                title: "Ultimate AWS Certified Cloud Practitioner CLF-C02",
+                image: "UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg",
+                type: "udemy",
+                tag: "Cloud",
+                links: []
+            },
+            {
+                title: "The Ultimate Hands-On Hadoop",
+                image: "UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg",
+                type: "udemy",
+                tag: "Big Data",
+                links: []
+            },
+
+            // --- Tutorials ---
+            {
+                title: "Java - Spring Boot 3 Microservices portfolio project",
+                type: "tutorial",
+                tag: "Java",
+                links: [
+                    { label: "Video", url: "https://www.youtube.com/watch?v=-pv5pMBlMxs", icon: "fa-youtube" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/leetjourney-microservices", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Java - Production-Ready Patient Management System",
+                type: "tutorial",
+                tag: "Java",
+                links: [
+                    { label: "Video", url: "https://www.youtube.com/watch?v=tseqdcFfTUY&t=42687s", icon: "fa-youtube" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/patient-management", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Angular Chat UI",
+                type: "tutorial",
+                tag: "Angular",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/ng-chat-ui-setup/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/ng-chat-ui-setup", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Angular Housing Website",
+                type: "tutorial",
+                tag: "Angular",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/Angular/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/Angular", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Angular Hero Website",
+                type: "tutorial",
+                tag: "Angular",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/AngularHero/heroes", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/AngularHero", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "Angular Form Website",
+                type: "tutorial",
+                tag: "Angular",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/AngularForm/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/AngularForm", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "React Investment Calculator",
+                type: "tutorial",
+                tag: "React",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/InvestmentCalculator/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/InvestmentCalculator", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "React Goal Tracker",
+                type: "tutorial",
+                tag: "React",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/DemoProjectS7/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/DemoProjectS7", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "React Expense Tracker",
+                type: "tutorial",
+                tag: "React",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/ExpenseTracker/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/ExpenseTracker", icon: "fa-github" }
+                ]
+            },
+            {
+                title: "React Concept Page",
+                type: "tutorial",
+                tag: "React",
+                links: [
+                    { label: "Demo", url: "https://ckarakoc.github.io/ExampleStartingReactSite/", icon: "fa-desktop" },
+                    { label: "Repo", url: "https://github.com/ckarakoc/ExampleStartingReactSite", icon: "fa-github" }
+                ]
+            }
+        ];
+
+        // =========================================================================
+        // APP LOGIC
+        // =========================================================================
+        const gallery = document.getElementById('gallery');
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const modal = document.getElementById('imageModal');
+        const modalImg = modal.querySelector('img');
+        const modalClose = modal.querySelector('.modal-close');
+
+        function createCard(item) {
+            // Determine image content: either a real <img> or a placeholder
+            let imageContent;
+            if (item.image) {
+                imageContent = `<img src="${item.image}" alt="${item.title}" class="card-img" loading="lazy">`;
+            } else {
+                imageContent = `
+                    <div class="card-placeholder">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                `;
+            }
+
+            // Decide click action: only open modal if there is a real image
+            const clickAction = item.image ? `onclick="openModal('${item.image}')"` : '';
+            const overlay = item.image ? `
+                <div class="card-overlay">
+                    <i class="fa-solid fa-eye view-btn"></i>
+                </div>` : '';
+            const cursorStyle = item.image ? 'cursor: pointer;' : 'cursor: default;';
+
+            // Special layout logic removed so all items render as consistent cards.
+            // Tutorials without images will now use the placeholder defined above.
+            
+            return `
+                <div class="card">
+                    <div class="card-img-container" ${clickAction} style="${cursorStyle}">
+                        ${imageContent}
+                        ${overlay}
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag">${item.tag}</span>
+                        <h3 class="card-title">${item.title}</h3>
+                        <div class="card-actions">
+                            ${item.links.map(link => `
+                                <a href="${link.url}" target="_blank" class="action-link">
+                                    <i class="fa-solid ${link.icon} ${link.icon.includes('github') || link.icon.includes('youtube') ? 'fa-brands' : ''}"></i> ${link.label}
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderGallery(filter = 'all') {
+            gallery.innerHTML = '';
+            
+            const filteredData = certificates.filter(item => {
+                if (filter === 'all') return true;
+                return item.type === filter;
+            });
+
+            filteredData.forEach(item => {
+                gallery.innerHTML += createCard(item);
+            });
+        }
+
+        // Filter Event Listeners
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update Active State
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                // Filter
+                renderGallery(btn.dataset.filter);
+            });
+        });
+
+        // Modal Logic
+        window.openModal = (imageSrc) => {
+            modalImg.src = imageSrc;
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden'; // Prevent scrolling
+        };
+
+        const closeModal = () => {
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            setTimeout(() => { modalImg.src = ''; }, 300); // Clear after transition
+        };
+
+        modalClose.addEventListener('click', closeModal);
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) closeModal();
+        });
+
+        // Initial Render
+        renderGallery();
+
+    </script>
+</body>
+</html>
