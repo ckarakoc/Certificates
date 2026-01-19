@@ -15,6 +15,7 @@
 | Udemy: Master Microsoft Azure Fundamentals: AZ-900 Exam Prep 2025 | [<img src="UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-385dfca7-14c9-412b-84ba-daf114c9c346.jpg) |
 | Udemy: Ultimate AWS Certified Cloud Practitioner CLF-C02 2026 | [<img src="UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg) |
 | Udemy: The Ultimate Hands-On Hadoop: Tame your Big Data! | [<img src="UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg) |
+| Udemy: Apache Spark with Scala - Hands On with Big Data! | [<img src="UC-cae81422-2ef7-4aac-ae8c-873c89c064ed.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-cae81422-2ef7-4aac-ae8c-873c89c064ed.jpg) |
 
 
 <br>
