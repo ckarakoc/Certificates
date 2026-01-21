@@ -16,6 +16,7 @@
 | Udemy: Ultimate AWS Certified Cloud Practitioner CLF-C02 2026 | [<img src="UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-c0899d21-39ca-4285-9c56-3839a3507f0e.jpg) |
 | Udemy: The Ultimate Hands-On Hadoop: Tame your Big Data! | [<img src="UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg) |
 | Udemy: Apache Spark with Scala - Hands On with Big Data! | [<img src="UC-cae81422-2ef7-4aac-ae8c-873c89c064ed.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-cae81422-2ef7-4aac-ae8c-873c89c064ed.jpg) |
+| Udemy: Apache Kafka Series - Learn Apache Kafka for Beginners v3 | [<img src="UC-71299f21-d27b-47e7-84d9-ba5ad6ba1284.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-71299f21-d27b-47e7-84d9-ba5ad6ba1284.jpg) |
 
 
 <br>
