@@ -17,6 +17,7 @@
 | Udemy: The Ultimate Hands-On Hadoop: Tame your Big Data! | [<img src="UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-08047cfb-cbb0-43dd-9385-20efbffac263.jpg) |
 | Udemy: Apache Spark with Scala - Hands On with Big Data! | [<img src="UC-cae81422-2ef7-4aac-ae8c-873c89c064ed.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-cae81422-2ef7-4aac-ae8c-873c89c064ed.jpg) |
 | Udemy: Apache Kafka Series - Learn Apache Kafka for Beginners v3 | [<img src="UC-71299f21-d27b-47e7-84d9-ba5ad6ba1284.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/UC-71299f21-d27b-47e7-84d9-ba5ad6ba1284.jpg) |
+| KnowBe4: Security Training | [<img src="CourseCompletionCertificate%20(1).jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/CourseCompletionCertificate%20(1).jpg) [<img src="CourseCompletionCertificate%20(2).jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/CourseCompletionCertificate%20(2).jpg) <br/> [<img src="CourseCompletionCertificate%20(3).jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/CourseCompletionCertificate%20(3).jpg) [<img src="CourseCompletionCertificate%20(4).jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/CourseCompletionCertificate%20(4).jpg) |
 
 
 <br>
@@ -48,6 +49,8 @@
 | Certification                                                                                                                                                                       | Certificate |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | [Github: Foundations (GH-900)](https://learn.microsoft.com/api/credentials/share/en-gb/ckarakoc/E8E777C1E1EAF9C1?sharingId=F461AAA7A48E7CA6)                                                                                                                                                                           | [<img src="github-foundations.svg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/github-foundations.svg) |
+| [Certified Secure: Saltroad New Horizons](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/pdf/CSC-T-20260310-047770.pdf)                                                                                                                                                                           | [<img src="CSC-T-20260310-047770.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/CSC-T-20260310-047770.jpg) |
+
 
 <br>
 
