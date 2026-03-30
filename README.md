@@ -36,6 +36,8 @@
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | [Microsoft Certified: Azure Fundamentals (AZ-900)](https://learn.microsoft.com/api/credentials/share/en-gb/ckarakoc/95535C86411AFBB1?sharingId=F461AAA7A48E7CA6)  | [<img src="microsoft-certified-azure-fundamentals.svg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/microsoft-certified-azure-fundamentals.svg) |
 | [AWS Certified Cloud Practitioner](https://www.credly.com/badges/5e2b0a89-600c-4699-8614-873c9d78ad75/linked_in_profile)                                                                                                                                                 | [<img src="aws-certified-cloud-practitioner.png" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/aws-certified-cloud-practitioner.png)  |
+| [AWS Certified AI Practitioner](https://www.credly.com/badges/98185180-d813-473d-b0fe-63233a9f78f4/linked_in_profile)                                                                                                                                                 | [<img src="aws-certified-ai-practitioner.png" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/aws-certified-ai-practitioner.png)  |
+
 
 
 ## Angular 
