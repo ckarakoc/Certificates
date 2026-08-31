@@ -25,6 +25,7 @@
 | Pluralsight: Datadog Agent, Metrics, and Dashboards | [<img src="certificate-pluralsight-datadog-amd.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/certificate-pluralsight-datadog-amd.jpg)  |
 | Pluralsight: Datadog Full-stack Observability | [<img src="certificate-pluralsight-datadog-obs.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/certificate-pluralsight-datadog-obs.jpg) |
 | Pluralsight: Jakarta EE 10 Messaging with RabbitMQ | [<img src="certificate-pluralsight-rabbitmq.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/certificate-pluralsight-rabbitmq.jpg) |
+| Pluralsight: Preparing Docker Apps For Production | [<img src="certificate-pluralsight-devops.jpg" width="100">](https://raw.githubusercontent.com/ckarakoc/Certificates/refs/heads/master/certificate-pluralsight-devops.jpg) |
 
 
 <br>
